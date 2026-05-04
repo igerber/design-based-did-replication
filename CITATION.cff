@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Replication code: Design-Based Variance Estimation for Modern Heterogeneity-Robust Difference-in-Differences Estimators"
+message: "If you use this replication code, please cite the paper as below."
+authors:
+  - family-names: Gerber
+    given-names: Isaac
+    affiliation: "Meta Platforms, Inc."
+type: software
+year: 2026
+license: MIT
+preferred-citation:
+  type: article
+  title: "Design-Based Variance Estimation for Modern Heterogeneity-Robust Difference-in-Differences Estimators"
+  authors:
+    - family-names: Gerber
+      given-names: Isaac
+  year: 2026

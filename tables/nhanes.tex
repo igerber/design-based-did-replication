@@ -1,0 +1,17 @@
+\begin{table}[ht]
+\centering
+\small
+\caption{ACA dependent coverage provision: DiD estimates of the effect on health insurance coverage using NHANES data, 2007--2008 vs.\ 2015--2016. Treatment group: ages 19--25; control group: ages 27--34.}
+\label{tab:nhanes}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Specification & ATT & SE & 95\% CI & df \\
+\midrule
+Naive (no weights, no design) & 0.065 & 0.035 & [-0.002, 0.133] & 2942 \\
+Weights only (no clustering) & 0.096 & 0.037 & [0.023, 0.170] & 2945 \\
+Full design (strata + PSU + weights) & 0.096 & 0.044 & [0.006, 0.187] & 31 \\
+Full design + covariates & 0.060 & 0.046 & [-0.033, 0.153] & 31 \\
+\bottomrule
+\end{tabular}
+\\[2pt]\footnotesize \emph{Notes:} The Naive and Weights-only specifications report residual degrees of freedom from the underlying linear regression ($n - p$). The Full design rows report survey degrees of freedom $\sum_h n_h - H$ (sampled PSUs minus strata; see Section~\ref{sec:theory}), which give the appropriate $t$-distribution for design-based inference.
+\end{table}

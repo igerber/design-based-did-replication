@@ -1,0 +1,204 @@
+{
+  "cells": {
+    "s1_cs_reg_n500": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 143.12
+    },
+    "s2_cs_reg_n500": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 145.47
+    },
+    "s1_twfe_n500": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 148.79
+    },
+    "s1_cs_dr_n500": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 256.91
+    },
+    "s1_twfe_n2000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 375.97
+    },
+    "s1_cs_reg_n2000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 378.7
+    },
+    "s2_cs_reg_n2000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 386.82
+    },
+    "s2_cs_dr_n500": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 279.11
+    },
+    "s1_cs_dr_n2000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 591.18
+    },
+    "s2_twfe_n500": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 196.36
+    },
+    "s2_cs_dr_n2000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 648.89
+    },
+    "s3_cs_reg_n500": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 160.53
+    },
+    "s1_sa_n500": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 1011.9
+    },
+    "s2_twfe_n2000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 479.69
+    },
+    "s4_cs_reg_n500": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 176.72
+    },
+    "s3_cs_reg_n2000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 413.13
+    },
+    "s1_twfe_n8000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 1432.71
+    },
+    "s1_cs_reg_n8000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 1490.6
+    },
+    "s1_sa_n2000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 1497.73
+    },
+    "s2_sa_n500": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 1217.82
+    },
+    "s2_cs_reg_n8000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 1504.47
+    },
+    "s4_cs_reg_n2000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 429.29
+    },
+    "s4_cs_dr_n500": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 274.82
+    },
+    "s1_cs_dr_n8000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 1759.37
+    },
+    "s2_sa_n2000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 1425.54
+    },
+    "s2_twfe_n8000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 1294.85
+    },
+    "s4_cs_dr_n2000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 436.73
+    },
+    "s2_cs_dr_n8000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 1674.18
+    },
+    "s3_cs_reg_n8000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 1033.13
+    },
+    "s1_sa_n8000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 2189.28
+    },
+    "s4_cs_reg_n8000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 860.2
+    },
+    "s2_sa_n8000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 1927.27
+    },
+    "s4_cs_dr_n8000": {
+      "status": "complete",
+      "reps_done": 2000,
+      "n_failed": 0,
+      "elapsed_s": 901.5
+    }
+  },
+  "started_at": "2026-05-03T20:15:18.685252",
+  "last_updated": "2026-05-03T20:55:19.786841"
+}

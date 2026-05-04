@@ -1,0 +1,7 @@
+# Pinned dependencies used to produce the simulation results in this paper.
+# Python 3.9.6.
+diff-diff==3.3.2
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+matplotlib==3.9.4

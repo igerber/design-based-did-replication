@@ -1,0 +1,21 @@
+\begin{table}[ht]
+\centering
+\small
+\caption{Simulation results: Conditional PT (headline).}
+\label{tab:sim-s4}
+\begin{tabular}{@{}llrrrrrrrr@{}}
+\toprule
+ & & \multicolumn{2}{c}{Bias} & \multicolumn{3}{c}{Coverage (\%)} &  & \multicolumn{2}{c}{RMSE} \\
+\cmidrule(lr){3-4} \cmidrule(lr){5-7} \cmidrule(lr){9-10}
+{Estimator} & {$n$} & {Unwt} & {Wtd} & {HC1} & {Cluster} & {Design} & {DEFF} & {Unwt} & {Wtd} \\
+\midrule
+CS (reg) & 500 & +0.580 & +0.569 & 0.0 & 0.0 & 0.0 & 1.5 & 0.588 & 0.577 \\
+ & 2,000 & +0.582 & +0.570 & 0.0 & 0.0 & 0.0 & 3.7 & 0.586 & 0.574 \\
+ & 8,000 & +0.581 & +0.570 & 0.0 & 0.0 & 0.0 & 12.3 & 0.585 & 0.574 \\
+CS (DR) & 500 & -0.002 & -0.002 & 82.8 & 93.5 & 92.7 & 1.8 & 0.093 & 0.093 \\
+ & 2,000 & -0.000 & +0.000 & 64.6 & 94.8 & 94.7 & 4.5 & 0.071 & 0.070 \\
+ & 8,000 & +0.000 & -0.000 & 37.0 & 94.6 & 94.0 & 15.2 & 0.068 & 0.068 \\
+\bottomrule
+\end{tabular}
+\\[2pt]\footnotesize \emph{Notes:} HC1 uses the unweighted point estimate (Unwt) with heteroskedasticity-robust standard errors. Cluster and Design both use the survey-weighted point estimate (Wtd); Cluster applies PSU-level clustering only, while Design applies full Taylor-series linearization with strata, PSU, and FPC.
+\end{table}

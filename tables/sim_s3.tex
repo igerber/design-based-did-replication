@@ -1,0 +1,18 @@
+\begin{table}[ht]
+\centering
+\small
+\caption{Simulation results: Repeated cross-section.}
+\label{tab:sim-s3}
+\begin{tabular}{@{}llrrrrrrrr@{}}
+\toprule
+ & & \multicolumn{2}{c}{Bias} & \multicolumn{3}{c}{Coverage (\%)} &  & \multicolumn{2}{c}{RMSE} \\
+\cmidrule(lr){3-4} \cmidrule(lr){5-7} \cmidrule(lr){9-10}
+{Estimator} & {$n$} & {Unwt} & {Wtd} & {HC1} & {Cluster} & {Design} & {DEFF} & {Unwt} & {Wtd} \\
+\midrule
+CS (reg) & 500 & +0.001 & -0.001 & 94.5 & 94.9 & 94.7 & 1.3 & 0.116 & 0.129 \\
+ & 2,000 & -0.002 & -0.003 & 87.5 & 94.7 & 94.5 & 1.8 & 0.073 & 0.077 \\
+ & 8,000 & -0.002 & -0.002 & 69.5 & 94.1 & 93.5 & 3.9 & 0.055 & 0.057 \\
+\bottomrule
+\end{tabular}
+\\[2pt]\footnotesize \emph{Notes:} HC1 uses the unweighted point estimate (Unwt) with heteroskedasticity-robust standard errors. Cluster and Design both use the survey-weighted point estimate (Wtd); Cluster applies PSU-level clustering only, while Design applies full Taylor-series linearization with strata, PSU, and FPC.
+\end{table}

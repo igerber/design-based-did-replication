@@ -1,0 +1,27 @@
+\begin{table}[ht]
+\centering
+\small
+\caption{Simulation results: Informative sampling + heterogeneous TE.}
+\label{tab:sim-s2}
+\begin{tabular}{@{}llrrrrrrrr@{}}
+\toprule
+ & & \multicolumn{2}{c}{Bias} & \multicolumn{3}{c}{Coverage (\%)} &  & \multicolumn{2}{c}{RMSE} \\
+\cmidrule(lr){3-4} \cmidrule(lr){5-7} \cmidrule(lr){9-10}
+{Estimator} & {$n$} & {Unwt} & {Wtd} & {HC1} & {Cluster} & {Design} & {DEFF} & {Unwt} & {Wtd} \\
+\midrule
+CS (reg) & 500 & -0.193 & +0.002 & 43.5 & 96.5 & 94.7 & 7.9 & 0.325 & 0.291 \\
+ & 2,000 & -0.194 & -0.009 & 22.7 & 96.2 & 94.0 & 30.7 & 0.329 & 0.294 \\
+ & 8,000 & -0.183 & +0.008 & 11.2 & 96.4 & 94.3 & 122.2 & 0.318 & 0.287 \\
+CS (DR) & 500 & -0.188 & +0.004 & 43.5 & 96.9 & 94.5 & 7.8 & 0.323 & 0.297 \\
+ & 2,000 & -0.182 & +0.002 & 25.4 & 95.9 & 94.0 & 30.3 & 0.318 & 0.291 \\
+ & 8,000 & -0.198 & -0.014 & 12.1 & 96.0 & 94.2 & 121.7 & 0.325 & 0.292 \\
+Sun-Abraham & 500 & -0.190 & +0.002 & 43.1 & 94.7 & 94.2 & 8.3 & 0.321 & 0.290 \\
+ & 2,000 & -0.196 & +0.000 & 20.4 & 93.5 & 93.0 & 32.3 & 0.327 & 0.295 \\
+ & 8,000 & -0.191 & +0.004 & 10.3 & 95.3 & 94.8 & 127.2 & 0.320 & 0.284 \\
+TWFE & 500 & -2.159 & -2.089 & 0.0 & 0.0 & 0.0 & 8.7 & 2.159 & 2.090 \\
+ & 2,000 & -2.159 & -2.089 & 0.0 & 0.0 & 0.0 & 34.0 & 2.159 & 2.089 \\
+ & 8,000 & -2.157 & -2.086 & 0.0 & 0.0 & 0.0 & 135.7 & 2.157 & 2.086 \\
+\bottomrule
+\end{tabular}
+\\[2pt]\footnotesize \emph{Notes:} HC1 uses the unweighted point estimate (Unwt) with heteroskedasticity-robust standard errors. Cluster and Design both use the survey-weighted point estimate (Wtd); Cluster applies PSU-level clustering only, while Design applies full Taylor-series linearization with strata, PSU, and FPC.
+\end{table}
