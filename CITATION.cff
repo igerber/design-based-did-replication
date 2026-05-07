@@ -15,3 +15,8 @@ preferred-citation:
     - family-names: Gerber
       given-names: Isaac
   year: 2026
+  url: "https://arxiv.org/abs/2605.04124"
+  identifiers:
+    - type: other
+      value: "arXiv:2605.04124"
+      description: "arXiv preprint"

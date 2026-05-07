@@ -4,8 +4,8 @@ This repository contains the simulation and empirical-illustration code that
 produces the numerical results in:
 
 > Gerber, Isaac (2026). *Design-Based Variance Estimation for Modern
-> Heterogeneity-Robust Difference-in-Differences Estimators.* Working paper.
-> arXiv:[ID will be added on submission].
+> Heterogeneity-Robust Difference-in-Differences Estimators.*
+> [arXiv:2605.04124](https://arxiv.org/abs/2605.04124).
 
 The companion software is the [`diff-diff`](https://github.com/igerber/diff-diff)
 Python package, pinned to **v3.3.2**
@@ -113,12 +113,15 @@ If you use this replication code, please cite both the paper and the
 companion package:
 
 ```bibtex
-@unpublished{gerber2026,
-  author = {Gerber, Isaac},
-  title  = {Design-Based Variance Estimation for Modern Heterogeneity-Robust
-            Difference-in-Differences Estimators},
-  year   = {2026},
-  note   = {Working paper, arXiv:[ID]}
+@misc{gerber2026,
+  author       = {Gerber, Isaac},
+  title        = {Design-Based Variance Estimation for Modern Heterogeneity-Robust
+                  Difference-in-Differences Estimators},
+  year         = {2026},
+  eprint       = {2605.04124},
+  archivePrefix = {arXiv},
+  primaryClass = {stat.ME},
+  url          = {https://arxiv.org/abs/2605.04124}
 }
 
 @misc{diffdiff2026,
