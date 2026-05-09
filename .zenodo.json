@@ -1,0 +1,39 @@
+{
+  "title": "Replication code: Design-Based Variance Estimation for Modern Heterogeneity-Robust Difference-in-Differences Estimators",
+  "description": "<p>This repository contains the simulation and empirical-illustration code that produces the numerical results in Gerber (2026), <em>Design-Based Variance Estimation for Modern Heterogeneity-Robust Difference-in-Differences Estimators</em> (<a href=\"https://arxiv.org/abs/2605.04124\">arXiv:2605.04124</a>).</p><p>The pipeline runs a 66,000-replication Monte Carlo over four scenarios (unconditional parallel trends with complex survey design, informative sampling with heterogeneous treatment effects, repeated cross-sections, and conditional parallel trends) and an empirical illustration on NHANES data. Each replication evaluates three inference paths: HC1 standard errors, weighted point estimate with PSU-level clustering, and full design-based standard errors with strata, PSU, and finite-population corrections.</p><p>Companion package: <a href=\"https://doi.org/10.5281/zenodo.19803705\">diff-diff v3.3.2</a>.</p>",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Gerber, Isaac",
+      "affiliation": "Meta Platforms, Inc."
+    }
+  ],
+  "keywords": [
+    "difference-in-differences",
+    "survey statistics",
+    "design-based variance",
+    "influence functions",
+    "Binder linearization",
+    "Taylor series linearization",
+    "complex survey design",
+    "Monte Carlo",
+    "replication",
+    "Python"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "arXiv:2605.04124",
+      "relation": "isSupplementTo",
+      "scheme": "arxiv",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.19803705",
+      "relation": "requires",
+      "scheme": "doi",
+      "resource_type": "software"
+    }
+  ]
+}
