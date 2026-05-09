@@ -1,13 +1,22 @@
 cff-version: 1.2.0
 title: "Replication code: Design-Based Variance Estimation for Modern Heterogeneity-Robust Difference-in-Differences Estimators"
-message: "If you use this replication code, please cite the paper as below."
+message: "If you use this replication code, please cite the paper (preferred-citation) and optionally the software archive."
 authors:
   - family-names: Gerber
     given-names: Isaac
     affiliation: "Meta Platforms, Inc."
 type: software
+version: v1.0
 year: 2026
 license: MIT
+doi: 10.5281/zenodo.20097360
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20097360
+    description: "Concept DOI (always-latest version)"
+  - type: doi
+    value: 10.5281/zenodo.20097361
+    description: "v1.0 (release accompanying arXiv v1)"
 preferred-citation:
   type: article
   title: "Design-Based Variance Estimation for Modern Heterogeneity-Robust Difference-in-Differences Estimators"

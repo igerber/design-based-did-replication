@@ -1,5 +1,8 @@
 # Replication: Design-Based Variance Estimation for Modern Heterogeneity-Robust DiD
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20097360.svg)](https://doi.org/10.5281/zenodo.20097360)
+[![arXiv](https://img.shields.io/badge/arXiv-2605.04124-b31b1b.svg)](https://arxiv.org/abs/2605.04124)
+
 This repository contains the simulation and empirical-illustration code that
 produces the numerical results in:
 
@@ -10,6 +13,12 @@ produces the numerical results in:
 The companion software is the [`diff-diff`](https://github.com/igerber/diff-diff)
 Python package, pinned to **v3.3.2**
 ([Zenodo DOI](https://doi.org/10.5281/zenodo.19803705)).
+
+The frozen v1.0 release of this replication artifact (the version that
+accompanies arXiv v1) is archived at
+[10.5281/zenodo.20097361](https://doi.org/10.5281/zenodo.20097361). The
+concept DOI [10.5281/zenodo.20097360](https://doi.org/10.5281/zenodo.20097360)
+always resolves to the latest version.
 
 ## Layout
 
@@ -131,6 +140,16 @@ companion package:
   publisher = {Zenodo},
   version   = {3.3.2},
   doi       = {10.5281/zenodo.19803705}
+}
+
+@misc{gerberreplication2026,
+  author    = {Gerber, Isaac},
+  title     = {Replication code: Design-Based Variance Estimation for Modern
+               Heterogeneity-Robust Difference-in-Differences Estimators},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {v1.0},
+  doi       = {10.5281/zenodo.20097361}
 }
 ```
 
